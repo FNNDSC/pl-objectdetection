@@ -89,9 +89,9 @@ There is another output file called `FramePerSecondRecord.csv`. This file contai
 maximum_fps,minimum_fps,average_fps
 250.0,142.86,239.92
 ```
-*If you run it multiple times , the newest result will be added to the last line of file.*
+*(If you run it multiple times , the newest result will be added to the last line of file.)*
 
-*Result is gotten from a ppc64le machine*
+*(Result is gotten from a ppc64le machine)*
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
 ### Benchmarking result.
