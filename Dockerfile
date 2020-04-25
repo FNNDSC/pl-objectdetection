@@ -19,7 +19,6 @@ ENV PATH=/opt/anaconda/envs/wmlce/bin:$PATH
 RUN /bin/bash -c "pip install pycuda chrisapp"
 
 USER root
-#COPY ["VOCdevkit", "${APPROOT}/VOCdevkit"]
 COPY ["SSD_Model", "${APPROOT}/SSD_Model"]
 COPY ["entrypoint.sh", "/usr/local/bin"]
 RUN chmod 777 /usr/local/bin/entrypoint.sh
