@@ -31,6 +31,22 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 
 and it's modified to use a file as the input, run on a cloud machine and become a chris plugin.
 
+Docker image
+------
+
+docker.io/fnndsc/pl-objectdetection_moc_ppc64
+
+https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64
+
+### Build instructions
+```
+    cd path/to/this/repo
+    docker login docker.io -u [your docker.io username]
+    docker build -f Dockerfile -t docker.io/fnndsc/pl-objectdetection_moc_ppc64 .
+    docker push "docker.io/fnndsc/pl-objectdetection_moc_ppc64"
+
+```
+
 ## Deploy requirement
 Your host computer should be a linux os and installed CUDA 10.1 && nvidia container.
 
