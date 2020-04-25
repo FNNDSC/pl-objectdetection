@@ -1,0 +1,2 @@
+git pull
+docker build -f  Dockerfile -t  docker.io/fnndsc/pl-objectdetection_moc_ppc64 .
