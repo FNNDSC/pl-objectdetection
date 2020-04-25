@@ -58,10 +58,14 @@ docker run --security-opt label=type:nvidia_container_t    \
 
 
 How it works
----
+------
 
 *Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
 
 ### Workflow
+------
+*powered by previous url*
+
 ![workflow](https://miro.medium.com/max/1400/0*mnywPWQIQW5j0Paf)
+
 
