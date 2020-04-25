@@ -39,7 +39,10 @@ docker.io/fnndsc/pl-objectdetection_moc_ppc64
 https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64
 
 ### Build instructions
-```
+
+For ppc64le image, we cannot use the automatic build on docker hub. We have to build this conatiner locally and push it into docker hub.
+
+```bash
     cd path/to/this/repo
     docker login docker.io -u [your docker.io username]
     docker build -f Dockerfile -t docker.io/fnndsc/pl-objectdetection_moc_ppc64 .
