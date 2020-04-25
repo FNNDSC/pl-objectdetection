@@ -30,7 +30,7 @@ For x86_64 machine:
 
 https://github.com/FNNDSC/pl-objectdetection_x86
 
-### Dependencies
+### main Dependencies
 ffmpeg
 opencv-python
 tensorflow
@@ -60,4 +60,8 @@ docker run --security-opt label=type:nvidia_container_t    \
 How it works
 ---
 
-Under constructing ...
+*Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
+
+### Workflow
+![workflow](https://miro.medium.com/max/1400/0*mnywPWQIQW5j0Paf)
+
