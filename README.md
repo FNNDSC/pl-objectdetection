@@ -1,6 +1,8 @@
 pl-objectdetection
 ==================
 
+An benchmarking plugin using object detection for Chris platform.
+
 Contributer
 ---
 Haoyang Wang  haoyangw@bu.edu
@@ -22,11 +24,17 @@ Your host computer should be a linux os and installed CUDA 10.1 && nvidia contai
 
 For ppc64le machine:
 
-https://github.com/FNNDSC/pl-objectdetection_ppc64
+https://github.com/FNNDSC/pl-objectdetection_moc_ppc64
 
 For x86_64 machine:
 
 https://github.com/FNNDSC/pl-objectdetection_x86
+
+### Dependencies
+ffmpeg
+opencv-python
+tensorflow
+tensorrt
 
 Run
 ---
