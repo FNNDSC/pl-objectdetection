@@ -76,7 +76,7 @@ Parameters and meaning below in the table:
 | -e | specifies the visible graphic device id | -e NVIDIA_VISIBLE_DEVICES=1 |
 | -v | specify input and outgoing folder, check docker [volume bind](https://docs.docker.com/storage/bind-mounts/) | -v $(pwd)/in:/incoming -v $(pwd)/out:/outgoing |
 | image_name | specify docker image name | docker.io/fnndsc/pl-objectdetection_x86 |
-| script_file | specify script file to run | objectdetection.py |
+| script_name | specify script file to run | objectdetection.py |
 | -f, --file | specify input file for object detection in input folder | -f animal360p.webm |
 
 ### Docker run on PowerPC
@@ -102,7 +102,7 @@ Parameters and meaning below in the table:
 | --security-opt label=type:nvidia_container_t | tells the docker to use the nvidia docker | --security-opt label=type:nvidia_container_t |
 | -v | specify input and outgoing folder, check docker [volume bind](https://docs.docker.com/storage/bind-mounts/) | -v $(pwd):/incoming:z -v $(pwd)/out:/outgoing:z |
 | image_name | specify docker image name |            docker.io/fnndsc/pl-matrixmultiply_moc_ppc64     |
-| script_file | specify script file to run | objectdetection.py |
+| script_name | specify script file to run | objectdetection.py |
 | -f, --file | specify input file for object detection in input folder | -f animal360p.webm |
 
 **Build Instructions**
