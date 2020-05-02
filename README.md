@@ -8,7 +8,7 @@ pl-objectdetection_moc_ppc64
     + [Docker run on x86_64](#docker-run-on-x86_64)
     + [Docker run on PowerPC](#docker-run-on-powerpc)
   * [Example](#example)
-  * [Research & Development References](#research---development-references)
+  * [Research & Development References](#research-&-development-references)
     + [Workflow](#workflow)
     + [Benchmarking result](#benchmarking-result)
   * [Troubleshoot](#troubleshoot)
