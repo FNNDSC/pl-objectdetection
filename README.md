@@ -31,7 +31,7 @@ Description
 
 ```
 
-This is a benchmarking plugin for ChRIS platform of Boston Children's Hospital ([What is ChRIS?](https://www.bu.edu/rhcollab/projects/radiology/))on both x86_64 and PowerPC MOC using object detection.
+This is a GPU benchmarking plugin for ChRIS platform of Boston Children's Hospital ([What is ChRIS?](https://www.bu.edu/rhcollab/projects/radiology/))on both x86_64 and PowerPC MOC using object detection.
 
 |Plugin Info  | Content | Description |
 |:------:|:--------------:|:-----------------------------------------------:|
