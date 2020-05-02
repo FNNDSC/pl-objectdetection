@@ -8,7 +8,7 @@ pl-objectdetection_moc_ppc64
     + [Docker run on x86_64](#docker-run-on-x86_64)
     + [Docker run on PowerPC](#docker-run-on-powerpc)
   * [Example](#example)
-  * [Research & Development References](#research-&-development-references)
+  * [Research and Development References](#research-and-development-references)
     + [Workflow](#workflow)
     + [Benchmarking result](#benchmarking-result)
   * [Troubleshoot](#troubleshoot)
@@ -120,7 +120,7 @@ Example
 -------
 For both `x86_64` and `PowerPC`, please check `FNNDSC/objectdetection_example` repo for example usage:[objectdetection_example](https://github.com/FNNDSC/objectdetection_example)
 
-Research & Development References
+Research and Development References
 -------------
 
 ### Workflow
