@@ -1,5 +1,6 @@
 pl-objectdetection_moc_ppc64
 ===============
+
 - [pl-objectdetection_moc_ppc64](#pl-objectdetection-moc-ppc64)
   * [Description](#description)
   * [Usage](#usage)
@@ -15,9 +16,8 @@ pl-objectdetection_moc_ppc64
       - [Failed to establish a new connection](#failed-to-establish-a-new-connection)
   * [Related Links](#related-links)
     + [Docker Images](#docker-images)
-  * [Contributer](#contributer)
-
-
+  * [Contributor](#contributor)
+  
 Description
 ------------
 ```
@@ -175,7 +175,7 @@ x86_64: https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_p
 
 
 
-Contributer
+Contributor
 ---
 Haoyang Wang  <haoyangw@bu.edu>
 
