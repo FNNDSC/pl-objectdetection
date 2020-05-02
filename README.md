@@ -118,6 +118,7 @@ docker push "docker.io/fnndsc/pl-objectdetection_moc_ppc64"
 ```
 Example
 -------
+For both `x86_64` and `PowerPC`, please check `FNNDSC/objectdetection_example` repo for example usage:[objectdetection_example](https://github.com/FNNDSC/objectdetection_example)
 
 Research & Development References
 -------------
@@ -168,7 +169,7 @@ Most python scripts in this repo is forked from this tensorRT example provided b
 https://github.com/NVIDIA/object-detection-tensorrt-example
 
 ### Docker Images
-PowerPC: docker.io/fnndsc/pl-objectdetection_moc_ppc64
+PowerPC: https://hub.docker.com/r/fnndsc/pl-objectdetection_moc_ppc64
 
 x86_64: https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64
 
